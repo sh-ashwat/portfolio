@@ -327,6 +327,68 @@ article .icon {
   cursor: default;
 }
 
+
+/* PROJECTS SECTION */
+
+#projects {
+  position: relative;
+}
+
+
+ .color-container {
+  border: 1px solid rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  max-width: 350px;
+  margin: auto;
+}
+
+
+
+ .project-img {
+  border-radius: 2rem;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+/* .project-title {
+  margin: 1rem;
+  color: black;
+} */
+ .project-title {
+  margin: 1rem 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: black;
+}
+
+
+/* .project-btn {
+  color: black;
+  border-color: rgb(163, 163, 163);
+} */
+ .project-btn {
+  background-color: white;
+  border: 1px solid rgb(163, 163, 163);
+  color: black;
+  padding: 0.5rem 1.2rem;
+  margin: 0.5rem;
+  border-radius: 2rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.project-btn:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+
 /* CONTACT */
 
 #contact {
